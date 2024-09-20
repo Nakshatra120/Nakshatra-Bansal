@@ -3,69 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nakshatra Bansal | Personal Website</title>
+    <meta name="description" content="Nakshatra Bansal - Aspiring Data Scientist and Materials Physics Researcher">
+    <title>Nakshatra Bansal | Researcher & Developer</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: Arial, sans-serif;
-            color: #333;
-            line-height: 1.6;
-        }
-        header {
-            background: linear-gradient(to right, #3a7bd5, #00d2ff);
-            color: white;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-        h1 {
-            font-size: 4rem;
-            margin-bottom: 20px;
-        }
-        p {
-            font-size: 1.5rem;
-            margin-bottom: 40px;
-        }
-        a {
-            text-decoration: none;
-            color: white;
-            padding: 10px 20px;
-            background-color: #333;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-        a:hover {
-            background-color: #555;
-        }
-        .social-icons a {
-            margin: 0 10px;
-            font-size: 2rem;
-            color: white;
-            transition: color 0.3s ease;
-        }
-        .social-icons a:hover {
-            color: #00d2ff;
-        }
-    </style>
 </head>
 <body>
     <header>
-        <h1>Nakshatra Bansal</h1>
-        <p>Physicist, Researcher, Developer</p>
-        <a href="#projects">View My Work</a>
-        <div class="social-icons">
-            <a href="https://github.com/your-github" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://linkedin.com/in/your-linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="mailto:nabansal@ucsd.edu" target="_blank"><i class="fas fa-envelope"></i></a>
+        <div class="container">
+            <h1>Nakshatra Bansal</h1>
+            <p>Data Science & Materials Physics Researcher</p>
+            <a href="#projects" class="btn">View My Work</a>
+            <div class="social-icons">
+                <a href="https://github.com/nakshatra120" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/nakshatra" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:nabansal@ucsd.edu"><i class="fas fa-envelope"></i></a>
+            </div>
         </div>
     </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm an undergraduate student at UCSD majoring in Physics with a passion for data science and materials physics. With experience in research labs and proficiency in machine learning, I am driven to solve complex problems using computational tools. This website showcases my research, projects, and accomplishments.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Research & Projects</h2>
+            <div class="project">
+                <h3>Brain Vessel Annotation</h3>
+                <p>Developed a MATLAB GUI for semi-automatically annotating blood vessels in the mouse brain.</p>
+                <a href="https://github.com/nakshatra120/brain-vessel-annotation" target="_blank" class="btn">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Spin Torque Nano Oscillators</h3>
+                <p>Simulated spin torque nano oscillators and optimized parameters using Python to maximize throughput.</p>
+                <a href="https://github.com/nakshatra120/spin-torque-simulation" target="_blank" class="btn">View Project</a>
+            </div>
+            <div class="project">
+                <h3>BCI Development Project</h3>
+                <p>Built an end-to-end Brain Computer Interface (BCI) using electromyography signals to control a mouse cursor.</p>
+                <a href="https://github.com/nakshatra120/bci-project" target="_blank" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Python</li>
+                <li>MATLAB</li>
+                <li>Signal Processing</li>
+                <li>Machine Learning</li>
+                <li>Data Science</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Nakshatra Bansal | Built with GitHub Pages</p>
+            <a href="resume.pdf" download class="btn">Download Resume</a>
+        </div>
+    </footer>
 </body>
 </html>
